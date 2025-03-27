@@ -1,0 +1,16 @@
+[package]
+name = "Token_based_sports_training_platform."
+version = "1.0.0"
+authors = []
+
+[addresses]
+SportsTrainingPlatform ="0x9ceb288ce9e5fb7df2026cf5ba5ac2703288abd3026fc4414671ba0d49f88d53"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
